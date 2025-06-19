@@ -46,6 +46,6 @@ public class Student {
 
     // Add a void method called addBonusPoints that takes a double parameter bonusPoints and adds it to the grade field.
     public void addBonusPoints(double bonusPoints) {
-        double totalGrade = grade + bonusPoints;
+        grade += bonusPoints;
     }
 }
